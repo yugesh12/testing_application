@@ -48,9 +48,4 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: mysql2
-  encoding: utf8
-  pool: 5
-  database: diqital_development
-  username: yugesh
-  password: <%= ENV['DIQITAL_DATABASE_PASSWORD'] %>
+  <<: *default
