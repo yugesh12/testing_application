@@ -1,0 +1,55 @@
+    <div class="wrapper_type1 wrapper_header35" id="wrapper_header">
+        <div id="background_container"></div>
+        <div class="overlay_black"></div>
+
+        <div class="subheader_container">
+            <h2>Wordt wijzer</h2><br>
+            <p id="titel_tekst">Dit is even een bullshit stukje omdat ik moet zien hoe het eruit ziet als ik klaar ben zodat ik alvast kan zien<br> </p>
+            <div class="box white_box"><a class="pijl" href="#"> > </a><a class="link_tekst" href=#> Leer meer</a></div>
+        </div>
+    </div>
+
+        <div class="wrapper_type2 wrapper_type2_45">
+        <article class="article_show_article align_mid">  
+      <div class="place_middle">
+                
+
+
+<h2>Sign up</h2>
+
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %>
+    <% if @validatable %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Sign up" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+
+</div>
+                       
+        </article>
+        <div class="overlay_white">
+        </div>  
+</div>

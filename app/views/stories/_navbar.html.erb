@@ -1,0 +1,20 @@
+    <header> 
+            <nav class="main_nav">
+            <ul id="left">
+                <li id="naam"><%=link_to 'Diqital', root_path, class: "black" %></li>
+            </ul>
+            <ul id="middle" class="place_middle">
+                <li id="diensten" class="middle"><%=link_to 'Diensten', services_path, class: "black"%></li>
+                <li id="leer" class="middle"><%=link_to 'Blog', articles_path, class: "black" %></li>
+                <li id="Verhalen" class="middle"><%=link_to 'Cases', stories_path, class: "black" %></li>
+                <% if user_signed_in? %>
+                    <li id="nieuw" class="middle"><%= link_to 'New Verhaal', new_story_path, class: "black"   %></li>
+                <% end %>
+            </ul>
+            <ul id="right">
+                <li id="contact_art"><%= link_to "Contact", :anchor => "wrapper_contact" %></li>
+            </ul>
+            </nav>    
+    </header>   
+
+  <div class="wrap_placeholder_nav"></div>

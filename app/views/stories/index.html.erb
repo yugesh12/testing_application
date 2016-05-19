@@ -1,0 +1,69 @@
+<div id="overlay_video"></div>
+<div id="videoBox">
+    <iframe id="overlay_2068_player" width="560" height="315" src="https://www.youtube.com/embed/z5tugxy70MY" frameborder="0" allowfullscreen></iframe>  
+    <button onmousedown="toggleOverlay()">close</button>
+</div>
+
+
+
+    <article class="wrapper wrapper_type2_45_stories black">
+        <button class="button_container button_z" onmousedown="toggleOverlay()"><%=image_tag('play_icon2', class: "play_icon")%></button>
+        
+        <div class="story_figuur naast_elkaar" onmousedown="toggleOverlay()">
+        <%= image_tag @story_last.image.url(:medium)%>
+
+        </div>
+
+
+        <section class="subheader_container_story naast_elkaar">
+            <div class="line_div">
+                <h2 class="hashtag_story">#<%= @story_last.tag %></h2>
+
+            </div><br>
+                <% if user_signed_in? %>
+
+                <p><%= link_to 'Destroy', story_path(@story_last), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
+                <%= link_to 'Edit', edit_story_path(@story_last), class: "black" %></p><% end %>
+
+            <div class><%= social_share_button_tag(@story_last.title, :popup => "true")%></div><br>
+
+            <div>
+
+                <p class="p_head"><%= @story_last.created_at.strftime("%d %b. %Y") %> - <%= @story_last.consumeTime %> min watch</p><br>
+
+                <%= link_to @story_last.title, story_path(@story_last), class: "blog_entry_titel black" %>
+                <hr><br><br>
+                <p><%=@story_last.content %>
+                
+                <br><br>
+                
+                <%= link_to 'Lees Meer', story_path(@story_last), class: "lees_meer" %>
+
+                </p>
+                
+            </div>
+        </section>
+
+    </article>
+    <br><br><hr class="scheiding_story"><br><br>
+<div class="test_loop">
+  <% @stories.each do |story| %>
+            <article class="inline_vidBox">
+                <%= link_to story_path(story), class: "story_link_container" do %>
+
+                <div class="overlay_story_multiple"></div>
+
+                <div class="story_figuur_multiple">
+                <%= image_tag story.image.url(:medium)%>
+                </div>
+                <% end %>
+
+                <div class="wrap_multiple">
+                <h2 class="hashtag_story_multiple">#<%= story.tag %></h2>
+                <%= link_to story.title, story_path(story), class: "blog_entry_titel_multiple black" %>
+        
+            </article>
+<% end %>
+
+</div>
+<br>

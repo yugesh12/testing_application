@@ -1,0 +1,16 @@
+    <header> 
+            <nav class="main_nav">
+            <ul id="left">
+                <li id="naam"><%=link_to 'Diqital', root_path %></li>
+            </ul>
+            <ul id="middle" class="place_middle">
+                <li id="diensten" class="middle"><%=link_to 'Diensten', services_path%></li>
+                <li id="leer" class="middle"><%=link_to 'Leer', articles_path %></li>
+                <li id="Verhalen" class="middle"><%=link_to 'Verhalen', stories_path %></li>
+
+            </ul>
+            <ul id="right">
+                <li id="contact"><%= link_to "Contact", :anchor => "wrapper_contact" %></li>
+            </ul>
+            </nav>    
+    </header>

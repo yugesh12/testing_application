@@ -1,0 +1,446 @@
+/* ...
+*= require_self
+*= require_tree .
+*= require social-share-button
+*/
+
+
+@charset "UTF-8";
+
+* { margin: 0; 
+    padding: 0; 
+}
+
+html, body {height: 100%;}
+
+
+body {    
+    color: black;
+    line-height: 1.5em;
+    font-family: 'Ek Mukta';
+    font-weight: 200;
+    font-size: 100%;
+}
+
+.page{
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+    position: relative; 
+    height: 100%;
+}
+
+.full_size{
+    width: 100%;
+    height: 100%;
+}
+
+.full_width{
+    width: 100%;
+}
+
+.full_height{
+    height: 100%;
+}
+
+.place_middle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.text_shade{
+    color: #666666;
+}
+
+.bgw{
+    background-color: white;
+}
+
+.bgb{
+    background-color: black;
+}
+
+.text_white{
+    color: #e9e9e9;
+}
+
+
+.red{
+    color: red !important;
+}
+
+
+
+h1 { 
+    font-size: 3.8em;
+    font-weight: 600;
+    margin: 0em 0 0.35em 0;
+    color: white;
+    line-height: 0.9em;
+}
+
+h2 {
+    font-size: 2.5em; 
+    line-height: 1em;
+    font-weight: 300;
+
+}
+
+h3 {
+    font-size: 4em;
+    font-weight: 200;
+    line-height: 0.9em;
+}
+
+header {
+    position: relative;
+    z-index: 3;
+    color: #FEFEFE;
+}
+
+
+
+p{
+    font-size: 1.45em;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+}
+
+p.tekst{
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+
+}
+
+#titel_tekst{
+    font-size: 1.3em;
+    letter-spacing: 0.06em;
+    font-weight: 200;
+    margin-top: 0.6em;
+    margin-bottom: 1.25em;
+    font-size: 1.3em;
+}
+
+/*********************************************************/
+/*********************wrappers***********************************
+*********************************************************/
+
+#wrapper_header {
+    color: #FEFEFE;
+}
+
+.wrapper{ 
+    width: 100%;
+    position: relative;
+}
+
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+
+
+.wrapper_type2_45{ 
+    height: 45em; 
+}
+
+.row1{
+    display: inline-block;
+    width: 49.75%;
+}
+
+.radio_buttons{
+    display: inline-block;
+    width: 33%;
+}
+
+.heightBox{
+    height: 15em;
+}
+
+#background_container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    position: fixed;
+}
+
+.subheader_container{
+    width: 61%;
+    position: absolute;
+    left: 19.5%;
+    top: 32%;
+    z-index: 2;
+}
+
+
+/************** Coverlayss*****************/
+.overlay_white{
+    width: inherit;
+    height: inherit;
+    opacity: 0.85;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+.overlay_black{
+    width: inherit;
+    height: inherit;
+    opacity: 0.77;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+}
+
+.overlay_red{
+    width: inherit;
+    height: inherit;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+}
+
+/*******************************************************************
+/*********************links***********************************
+*********************************************************/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+li#contact{
+    color:orange;
+    border-style: solid;
+    padding: 0.45em 0.8em 0.45em 0.8em;
+    font-weight: 400;
+}
+
+
+li#contact:hover{
+    border-style: black;
+    padding: 0.45em 0.8em 0.45em 0.8em;
+    font-weight: 400;
+    background-color: orange;
+}
+
+li#naam a:hover{
+    color: silver;
+}
+
+li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover{
+    color: orange;
+    border-top: solid;
+    border-color: orange;
+    padding-top: 1.6em;
+}
+
+
+.pijl{
+    padding: 0.5em 0.25em 0.5em 1em;
+    color: red;
+}
+
+
+
+.link_tekst{
+    padding: 0.5em 1em 0.5em 0.25em;
+}
+
+
+.box{
+    display: inline-block;
+    border-style: solid;
+    border-width: thin;
+}
+
+.box a{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+.white_box{
+    border-color: white;
+}
+
+div.white_box:hover{
+    background-color: red;
+    border-style: none;
+}
+
+
+.black_box{
+    border-color: black
+}
+
+.black_box a.link_tekst{
+    color: black;
+}
+
+div.black_box:hover{
+    background-color: black;
+    border-style: none;
+}
+
+
+
+
+/*********************************************************/
+/*********************Footer***********************************
+*********************************************************/
+footer{ /* GEEF height IN EM*/
+    color: white;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+/********************************************************************
+*********************************************************************
+DIT WAS ALGEMEEN
+*********************************************************************
+**********************************************************************/
+
+/************** NAV *****************/
+
+nav {
+    height: 7em;
+    position: fixed;
+    width: 100%;
+}
+
+.wrap_placeholder_nav{
+    height: 7em;
+}
+
+
+li {
+    display: inline-block;
+}   
+
+li#leer{
+    margin: 0 6% 0 6%;
+}
+
+
+ul#left{
+    left: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 2.5em;
+    position: absolute;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+ul#middle{
+    letter-spacing: 0.07em;
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 33%;
+    text-align: center;
+}
+
+
+
+
+
+ul#right{
+    left:  90%;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 1.3em;
+    border-width: thin;
+    position: absolute;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+
+/***************Sticky Nav************************/
+.sticky {
+    position:fixed;
+    top: 0;
+    left:0;
+    background: #fefefe;
+    opacity: 0.95;
+}
+
+
+.sticky .nav-inner{
+    max-width: 100%;
+    margin: 0 auto;
+    /*naar voren*/
+}
+
+
+.sticky a{
+    color: black;
+}
+
+
+
+#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+
+
+.socials{
+    position: absolute;
+    left: 52%;
+    top: 120%;
+}
+
+button:focus {outline:0;}
+

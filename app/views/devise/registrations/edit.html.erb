@@ -1,0 +1,64 @@
+    <div class="wrapper_type1 wrapper_header35" id="wrapper_header">
+        <div id="background_container"></div>
+        <div class="overlay_black"></div>
+
+        <div class="subheader_container">
+            <h2>Wordt wijzer</h2><br>
+            <p id="titel_tekst">Dit is even een bullshit stukje omdat ik moet zien hoe het eruit ziet als ik klaar ben zodat ik alvast kan zien<br> </p>
+            <div class="box white_box"><a class="pijl" href="#"> > </a><a class="link_tekst" href=#> Leer meer</a></div>
+        </div>
+    </div>
+
+
+        <div class="wrapper_type2 wrapper_type2_45">
+        <article class="article_show_article align_mid">  
+      <div class="place_middle">
+                
+
+<h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password, autocomplete: "off" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>
+
+
+</div>
+                       
+        </article>
+        <div class="overlay_white">
+        </div>  
+</div>

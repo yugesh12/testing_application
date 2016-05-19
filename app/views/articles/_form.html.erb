@@ -1,0 +1,55 @@
+
+                
+
+          <%= form_for @article, html: {multipart: true} do |f| %>
+
+  <% if @article.errors.any? %>
+  <div id="errors_id">
+    <h2>
+      <%= pluralize(@article.errors.count, "error") %> prohibited this article from being saved:
+    </h2>
+    <ul>
+      <% @article.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <p>
+  
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :content %><br>
+    <%= f.text_area :content %>
+  </p>
+
+    <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+   <p>
+    <%= f.label :tag %><br>
+    <%= f.text_area :tag %>
+  </p>
+
+  <p>
+    <%= f.label :consumeTime, 'Time to Read' %><br>
+    <%= f.number_field :consumeTime %>
+  </p>
+
+    <p>
+    <%= f.label :image %><br>
+    <%= f.file_field :image %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+

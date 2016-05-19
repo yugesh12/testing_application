@@ -1,0 +1,97 @@
+/*************************************************************
+*************************************************************
+CROP
+***************************************************************
+************************************************************/
+
+.crop-height {
+  /* max-width: 1200px; /* native or declared width of img src (if known) */
+	max-height: 50em;
+	overflow: hidden; }
+
+
+.scale {
+  /* corrects small inline gap at bottom of containing div */
+	display: block; 
+  width: 100%; /* corrects obscure Firefox bug */
+	max-width: 100%;
+	/* just in case, to force correct aspect ratio */
+	height: auto !important;
+  display: block; /* corrects small inline gap at bottom of containing div */
+  width: 100% /* corrects obscure Firefox bug */
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  /*width: auto\9; 
+  /* ie8+9 - use modernizr instead of this \9 hack */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic;
+	/* optionally force a minimum size if img src size is known: */
+	/* min-height: 320px; /* max-height of .crop-height */
+	/* min-width: 480px; /* proportional to above */ }
+
+.bg_crop_helper{
+  /* lt ie8 */
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  /* default - may override with classes or media query */
+  background-position: center bottom;
+  /* scale bg image proportionately */
+  background-size: cover;
+  /* ie8 - https://github.com/louisremi/background-size-polyfill */
+  -ms-behavior: url(backgroundsize.min.htc);
+  /* prevent scaling past src width (or not) */
+  /* max-width: 1200px; */ 
+}
+
+.bg_Branding {
+	background-image: url(branding.jpg);
+}
+
+  .bg_SEO {
+  background-image: url(SEO.jpg);
+}
+
+
+  .bg_Content {
+  background-image: url(Content.png);
+}
+
+  .bg_CRM {
+  background-image: url(CRM.jpg);
+}
+
+  .bg_SMA {
+  background-image: url(Marketing.jpeg);
+}
+
+
+.transparent {
+  /* trigger hasLayout for ie filters below */
+	zoom: 1;
+  /* 0 opacity in ms filters still displays layout */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+  filter: alpha(opacity=0);
+ 	opacity: 0; }
+
+/* example media query for smaller non-retina  
+@media
+    only screen and (max-device-width : 600px) and (-webkit-max-device-pixel-ratio: 1),
+    only screen and (max-device-width : 600px) and (max-device-pixel-ratio: 1) {
+
+         half-sized "proxy" img 
+        background-image: url(img/photo-wedding_600x400.jpg);
+}
+
+ example media query, larger retina devices 
+@media
+    only screen and (min-device-width : 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-width : 768px) and (        min-device-pixel-ratio: 1.5) {
+
+    .bg-image-wedding {
+         1.5x larger 
+        background-image: url(http://www.zercustoms.com/news/images/Land-Rover/Land-Rover-Discovery-4-3.jpg); }
+}
+
+*/
+

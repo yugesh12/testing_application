@@ -1,0 +1,83 @@
+<!--     <div class="wrapper_type1 wrapper_header35" id="wrapper_header">
+
+        <div id="background_container">
+        </div>
+
+        <div class="subheader_container">
+            <h2>Wordt wijzer</h2><br>
+            <p id="titel_tekst">Dit is even een bullshit stukje omdat ik moet zien hoe het eruit ziet als ik klaar ben zodat ik alvast kan zien<br> </p>
+        </div>
+    </div>
+-->
+<%= paginate @articles %>
+<div class="wrapper_aside_article ">
+<div class="one_two bgb">
+    <h1 class="white subscribe_text">Subscribe voor Exclusieve content.</h1>
+        <div class="sub_form_container text_white"><%=render('sub_form')%></div>
+</div>
+<div class="two_two">
+        <ul class="social_links">
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_tw.png"), 'https://www.twitter.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_ig.png"), 'https://www.instagram.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_fb.png"), 'https://www.facebook.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_yt.png"), 'https://www.youtube.com' %></button></li>
+        </ul>
+</div>
+ 
+ <div class="three_two">
+    <h1 class="black titel_fix_art">Must read!</h1>
+    <figure class="container_fix_art"></figure>
+    <h1 class="black ondertitel_fix_art">Test ondertitel testing</h1>
+    <hr>
+<div class="final_deel_fix"><p class="naast_elkaar">Dit artikel gaat over bla bla</p><%= link_to 'Lees Meer', articles_path, class: "lees_meer naast_elkaar" %></div>
+
+ </div>
+</div>
+<% @articles.each do |article| %> 
+    <article class="art_wrap black">
+
+
+        <%= link_to article_path(article), class: "testkleur" do %>
+
+            <div class="crop-height bg_crop_helper bg_<%=article.tag%> background_container"></div>
+            <div class="background_overlay<%=article.tag%>"></div>
+        <% end %>
+        
+        <%= link_to article_path(article) do %>
+            <figure class="artikel_figuur">
+                <%= image_tag article.image.url(:medium)%>
+            </figure>
+        <% end %>
+        <section class="subheader_container_art">
+            <div class="line_div_art">
+                <h2 class="hashtag_art black">#<%= article.tag %></h2>
+                <div class="socials"><%= social_share_button_tag(article.title, :popup => "true", class: "testklasseSM") %></div>
+            </div><br><br>
+
+            <div class="half_page_art">
+                <% if user_signed_in? %>
+                <p><%= link_to 'Destroy', article_path(article), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
+                <%= link_to 'Edit', edit_article_path(article), class: "black" %></p><% end %>
+               
+                <%= link_to article.title, article_path(article), class: "blog_entry_titel black" %>
+                <hr>
+            </div>
+
+            <div class="half_page_art">
+                <p class="p_head"><%= article.created_at.strftime("%d %b. %Y") %> - <%= article.consumeTime %> min read</p><br>
+                <p class="article_tekst"><%=article.content %>
+                <br><br>
+                <%= link_to 'Lees Meer', article_path(article), class: "lees_meer" %>
+                </p>
+            </div>
+        </section>
+
+
+
+
+    </article>
+
+    <br>
+<% end %>
+
+

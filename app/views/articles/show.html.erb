@@ -1,0 +1,82 @@
+    <div class="wrapper wrapper_header35" id="wrapper_header">
+            <div class="overlay_black"></div>
+
+        <div id="background_container_show">
+            
+        <%= image_tag @article.image.url(:large) %>
+
+        </div>
+        <div class="subheader_container">
+            <h2><%= @article.title%></h2><br>
+            <p id="titel_tekst"><%=@article.description%><br> </p>
+            <% @stories.each do |story| %>               <div class="koppeling"><%= story.title %>
+            <figure ><%= link_to image_tag(story.image.url(:medium)), story_path(story)%></figure>
+            </div>
+            <% end %>
+
+
+        </div>
+    </div>
+
+       <div class="wrapper wrapper_type2_50 bgw">
+        <article class="article_show_article">    
+            <section class="article_content_show ">
+            <div class="container">
+            <% if user_signed_in? %>
+            <p><%= link_to 'Destroy', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
+            <%= link_to 'Edit', edit_article_path(@article), class: "black" %><% end %>
+            <%= link_to 'Back', articles_path, class: "black" %></p><br>
+                <h3 class="header_article"><%= @article.title %></h3><hr class="article_show_hr">
+                <div class="socials_line">
+                <figure class="avatar"><%=image_tag('play_icon2.png') %></figure>
+
+                <div class="writer">
+                    <h5>by YSR <br><br>Twitter handle</h5>
+
+
+                </div>
+                <div class= "socials_show"><%= social_share_button_tag(@article.title, :popup => "true", class: "testklasseSM") %>
+                <p class="p_head"><%= @article.created_at.strftime("%d %b. %Y") %></p>
+                </div>
+                </div><br><br>
+                    <p class="tekst">
+                        <%=@article.content%>
+                        <% @stories.each do |story| %> <br>
+                        <%= story.title %><br>
+                        <% end %>
+                        jghf
+                    </p>
+
+                    <br><br>
+              </div>
+
+            </section>
+
+            <aside class="article_aside_show">
+                <div class="one_two bgb">
+    <h1 class="white subscribe_text">Subscribe voor Exclusieve content.</h1>
+        <div class="sub_form_container text_white"><%=render('sub_form')%></div>
+</div>
+<div class="two_two">
+        <ul class="social_links">
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_tw.png"), 'https://www.twitter.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_ig.png"), 'https://www.instagram.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_fb.png"), 'https://www.facebook.com' %></button></li>
+        <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_yt.png"), 'https://www.youtube.com' %></button></li>
+        </ul>
+</div>
+ 
+ <div class="three_two">
+    <h1 class="black titel_fix_art">Must read!</h1>
+    <figure class="container_fix_art"></figure>
+    <h1 class="black ondertitel_fix_art">Test ondertitel testing</h1>
+    <hr>
+<div class="final_deel_fix"><p class="naast_elkaar">Dit artikel gaat over bla bla</p><%= link_to 'Lees Meer', articles_path, class: "lees_meer naast_elkaar" %></div>
+
+ </div>
+
+            </aside>
+        </article>
+    </div>
+
+    <%= render 'disqus' %>

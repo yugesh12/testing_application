@@ -1,0 +1,53 @@
+
+          <%= form_for @story do |f| %>
+
+  <% if @story.errors.any? %>
+  <div id="errors_id">
+    <h2>
+      <%= pluralize(@story.errors.count, "error") %> prohibited this story from being saved:
+    </h2>
+    <ul>
+      <% @story.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :content %><br>
+    <%= f.text_area :content %>
+  </p>
+
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+   <p>
+    <%= f.label :tag %><br>
+    <%= f.text_area :tag %>
+  </p>
+
+  <p>
+    <%= f.label :consumeTime, 'Time to Watch' %><br>
+    <%= f.number_field :consumeTime %>
+  </p>
+  
+     <p>
+    <%= f.label :image %><br>
+    <%= f.file_field :image %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
+
