@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: diqital_production
+  database: diqital_development
   username: diqital
   password: <%= ENV['DIQITAL_DATABASE_PASSWORD'] %>
