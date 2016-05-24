@@ -20,9 +20,6 @@ class Article < ActiveRecord::Base
 		end
 	end
 
-	def slug
-    	title.downcase.gsub(" ", "-")  
-  	end
 
   	def to_param
     	slug

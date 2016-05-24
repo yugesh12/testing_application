@@ -1,0 +1,163 @@
+.story_figuur{
+	width: 70%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.story_figuur img{
+	width: 100%;
+	height: inherit;
+	position: relative;
+}
+
+.subheader_container_story{
+	width: 29.5%;
+	height: inherit;
+	position: relative;
+}
+
+
+.hashtag_story{
+	color: #3399cc;
+	font-size: 2em;
+	padding: 3% 2.4% 3% 2.4%;
+}
+
+
+.button_container{
+	position: absolute;
+	z-index: 1;
+	width: 10em;
+	height: 10em;
+	background-color: transparent;
+	border-style: none;
+	left: 30%;
+	top: 40%;
+}
+
+
+.play_icon{
+	height: 100%;	
+	width: 100%;
+
+}
+
+/*.button_container{
+	position: absolute;
+	z-index: 3;
+	width: inherit;
+	height: inherit;
+}
+
+
+.play_button{
+	background-color: transparent;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	opacity: 0.65;
+	width: inherit;
+	height: inherit;
+}
+
+.play_icon{
+	height: 25%;	
+	width: auto;
+}
+*/
+
+.line_div{
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: 10%;
+}
+
+
+#routeee{
+	height: 50em;
+	width: 50em;
+	background-color: red;
+}
+
+
+.blog_entry_titel{
+	font-size: 2.8em;
+}
+
+
+
+.blog_entry_titel_multiple{
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.hashtag_story_multiple{
+	color: #3399cc;
+	font-size: 1em;
+}
+
+
+
+
+.overlay_story_multiple{
+	height: 15em;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+}
+
+.overlay_story_multiple:hover{
+	opacity: 0.2;
+}
+
+
+.story_link_container:hover ~ .wrap_multiple{
+	background-color: lightgray;
+}
+
+.test_loop{
+	width: 100%;
+	max-width: 72em;
+	height: auto;
+	margin: 0 auto;
+}
+.inline_vidBox{
+	display: inline-block;
+	width: 30%;
+	max-width: 24em;
+	height:21em;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 1% 0 1%;
+}
+
+.story_figuur_multiple{
+	height: 15em;
+	width: 100%;
+	overflow: hidden;
+}
+
+.wrap_multiple{
+	height: 3em;
+	background-color: gray;
+	padding: 1.25em 0 1.25em 0;
+}
+
+
+.scheiding_story{
+	width: 90%;
+	margin: 0 auto;
+	opacity: 0.2;
+}
+
+.wrapper_type2_45_stories{
+	max-height: 45em;
+	overflow: hidden;
+}

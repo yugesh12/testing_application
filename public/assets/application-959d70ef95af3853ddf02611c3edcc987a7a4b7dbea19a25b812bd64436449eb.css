@@ -1,0 +1,1924 @@
+/* ...
+
+
+
+*/
+/* line 11, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 18, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+body {
+  color: black;
+  line-height: 1.5em;
+  font-family: 'Ek Mukta';
+  font-weight: 200;
+  font-size: 100%;
+}
+
+/* line 26, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.page {
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+/* line 33, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.full_size {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 38, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.full_width {
+  width: 100%;
+}
+
+/* line 42, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.full_height {
+  height: 100%;
+}
+
+/* line 46, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.place_middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 55, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.white {
+  color: white;
+}
+
+/* line 59, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.black {
+  color: black;
+}
+
+/* line 63, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.text_shade {
+  color: #666666;
+}
+
+/* line 67, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.bgw {
+  background-color: white;
+}
+
+/* line 71, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.bgb {
+  background-color: black;
+}
+
+/* line 75, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.text_white {
+  color: #e9e9e9;
+}
+
+/* line 80, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.red {
+  color: red !important;
+}
+
+/* line 86, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 3.8em;
+  font-weight: 600;
+  margin: 0em 0 0.35em 0;
+  color: white;
+  line-height: 0.9em;
+}
+
+/* line 94, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 2.5em;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+/* line 101, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 4em;
+  font-weight: 200;
+  line-height: 0.9em;
+}
+
+/* line 107, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+header {
+  position: relative;
+  z-index: 3;
+  color: #FEFEFE;
+}
+
+/* line 115, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+p {
+  font-size: 1.45em;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+}
+
+/* line 121, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+p.tekst {
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+}
+
+/* line 128, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+#titel_tekst {
+  font-size: 1.3em;
+  letter-spacing: 0.06em;
+  font-weight: 200;
+  margin-top: 0.6em;
+  margin-bottom: 1.25em;
+  font-size: 1.3em;
+}
+
+/*********************************************************/
+/*********************wrappers***********************************
+*********************************************************/
+/* line 141, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+#wrapper_header {
+  color: #FEFEFE;
+}
+
+/* line 145, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+/* line 152, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+/* line 163, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.wrapper_type2_45 {
+  height: 45em;
+}
+
+/* line 167, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.row1 {
+  display: inline-block;
+  width: 49.75%;
+}
+
+/* line 172, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.radio_buttons {
+  display: inline-block;
+  width: 33%;
+}
+
+/* line 177, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.heightBox {
+  height: 15em;
+}
+
+/* line 181, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+#background_container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  position: fixed;
+}
+
+/* line 189, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.subheader_container {
+  width: 61%;
+  position: absolute;
+  left: 19.5%;
+  top: 32%;
+  z-index: 2;
+}
+
+/************** Coverlayss*****************/
+/* line 199, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.overlay_white {
+  width: inherit;
+  height: inherit;
+  opacity: 0.85;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+/* line 208, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.overlay_black {
+  width: inherit;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+}
+
+/* line 217, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.overlay_red {
+  width: inherit;
+  height: inherit;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+  background-color: red;
+}
+
+/*******************************************************************
+/*********************links***********************************
+*********************************************************/
+/* line 230, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 236, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+a:hover {
+  color: white;
+}
+
+/* line 241, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li#contact {
+  color: orange;
+  border-style: solid;
+  padding: 0.45em 0.8em 0.45em 0.8em;
+  font-weight: 400;
+}
+
+/* line 249, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li#contact:hover {
+  border-style: black;
+  padding: 0.45em 0.8em 0.45em 0.8em;
+  font-weight: 400;
+  background-color: orange;
+}
+
+/* line 256, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li#naam a:hover {
+  color: silver;
+}
+
+/* line 260, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover {
+  color: orange;
+  border-top: solid;
+  border-color: orange;
+  padding-top: 1.6em;
+}
+
+/* line 268, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.pijl {
+  padding: 0.5em 0.25em 0.5em 1em;
+  color: red;
+}
+
+/* line 275, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.link_tekst {
+  padding: 0.5em 1em 0.5em 0.25em;
+}
+
+/* line 280, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.box {
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+}
+
+/* line 286, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.box a {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 294, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.white_box {
+  border-color: white;
+}
+
+/* line 298, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+div.white_box:hover {
+  background-color: red;
+  border-style: none;
+}
+
+/* line 304, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.black_box {
+  border-color: black;
+}
+
+/* line 308, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.black_box a.link_tekst {
+  color: black;
+}
+
+/* line 312, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+div.black_box:hover {
+  background-color: black;
+  border-style: none;
+}
+
+/*********************************************************/
+/*********************Footer***********************************
+*********************************************************/
+/* line 323, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+footer {
+  /* GEEF height IN EM*/
+  color: white;
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
+
+/********************************************************************
+*********************************************************************
+DIT WAS ALGEMEEN
+*********************************************************************
+**********************************************************************/
+/************** NAV *****************/
+/* line 338, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+nav {
+  height: 7em;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 344, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.wrap_placeholder_nav {
+  height: 7em;
+}
+
+/* line 349, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li {
+  display: inline-block;
+}
+
+/* line 353, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+li#leer {
+  margin: 0 6% 0 6%;
+}
+
+/* line 358, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+ul#left {
+  left: 4em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 369, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+ul#middle {
+  letter-spacing: 0.07em;
+  font-size: 1.1em;
+  font-weight: 400;
+  width: 33%;
+  text-align: center;
+}
+
+/* line 381, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+ul#right {
+  left: 90%;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1.3em;
+  border-width: thin;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/***************Sticky Nav************************/
+/* line 396, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fefefe;
+  opacity: 0.95;
+}
+
+/* line 405, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.sticky .nav-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  /*naar voren*/
+}
+
+/* line 412, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.sticky a {
+  color: black;
+}
+
+/* line 418, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* line 440, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+.socials {
+  position: absolute;
+  left: 52%;
+  top: 120%;
+}
+
+/* line 446, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/application.css.scss */
+button:focus {
+  outline: 0;
+}
+/************************************************************
+************************************************************/
+/* line 4, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.bodyArt {
+  height: 0.01%;
+}
+
+/* line 10, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.wrapper_header35 {
+  height: 35em;
+}
+
+/* line 14, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.naast_elkaar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 19, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.artikel_figuur {
+  width: 50%;
+  height: inherit;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 28, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.artikel_figuur img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
+
+/* line 37, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.hashtag_art {
+  color: #3399cc;
+  font-size: 2em;
+  position: absolute;
+  padding: 3% 2.4% 3% 2.4%;
+}
+
+/* line 44, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.artikel_figuur {
+  position: absolute;
+  left: 10%;
+  width: 50%;
+  height: 50%;
+  background-color: gray;
+}
+
+/* line 52, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.artikel_figuur img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* line 58, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.half_page_art {
+  display: inline-block;
+  width: 44.5%;
+  height: 85%;
+  position: relative;
+  margin: 0 2.4% 0 2.4%;
+  vertical-align: top;
+}
+
+/* line 69, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.subheader_container_art {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  height: 50%;
+  width: 50%;
+}
+
+/* line 78, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+#contact_art a {
+  color: black;
+}
+
+/* line 82, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+#contact_art a:hover {
+  color: white;
+}
+
+/* line 86, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+li#contact_art {
+  color: orange;
+  border-style: solid;
+  padding: 0.45em 0.8em 0.45em 0.8em;
+  font-weight: 400;
+}
+
+/* line 94, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+li#contact_art:hover {
+  padding: 0.45em 0.8em 0.45em 0.8em;
+  font-weight: 400;
+  background-color: orange;
+  border-color: orange;
+}
+
+/*art only*/
+/* line 102, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.testkleur {
+  width: 10%;
+  height: inherit;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 109, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.article_tekst {
+  font-weight: 300;
+  font-size: 1.3em;
+  letter-spacing: 0.02em;
+}
+
+/* line 116, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.art_wrap {
+  max-width: 72em;
+  margin: 0 auto;
+  height: 45em;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+/* line 127, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.line_div_art {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 15%;
+}
+
+/* line 135, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.wrapper_aside_article {
+  height: 100%;
+  width: 38.5%;
+  max-width: 28.8em;
+  position: fixed;
+  left: 60.5%;
+}
+
+/* line 144, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.one_two {
+  width: 100%;
+  height: 22em;
+  position: relative;
+}
+
+/* line 150, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.subscribe_text {
+  font-size: 3.6em;
+  font-weight: 700;
+  letter-spacing: -0.075em;
+  line-height: 0.75em;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 0.35em 0.35em 0.35em 0.35em;
+}
+
+/* line 161, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.sub_form_container {
+  position: absolute;
+  left: 28%;
+}
+
+/* line 166, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+#disqus_thread {
+  position: relative;
+  background-color: white;
+}
+
+/* line 172, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.two_two {
+  position: relative;
+  width: 100%;
+}
+
+/* line 177, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.social_links {
+  width: 17.5em;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 183, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.sm_list {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+/* line 188, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.sm_button_bw {
+  border-style: none;
+  background-color: transparent;
+  width: 5em;
+  height: 5em;
+}
+
+/* line 195, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.sm_button_bw a {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 200, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.sm_button_bw img {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 207, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.three_two {
+  height: 23.5em;
+  width: 100%;
+}
+
+/* line 212, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.titel_fix_art {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 0.5em;
+}
+
+/* line 219, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.ondertitel_fix_art {
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 0.8em;
+  margin-top: 0.1em;
+  margin-bottom: -0.15em;
+  text-align: center;
+}
+
+/* line 228, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.container_fix_art {
+  background-color: red;
+  height: 10em;
+  width: 100%;
+}
+
+/* line 234, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.final_deel_fix {
+  margin-top: 0.7em;
+}
+
+/* line 238, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+#background_container_show {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 245, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.article_show_article {
+  position: relative;
+  z-index: 0;
+  max-width: 72em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 253, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.article_content_show {
+  width: 60%;
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 261, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.article_aside_show {
+  margin-left: 1%;
+  width: 38%;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 269, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+#disqus_thread {
+  position: relative;
+}
+
+/* line 274, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.article_show_hr {
+  width: 60%;
+}
+
+/* line 278, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.header_article {
+  margin-bottom: -0.5em;
+}
+
+/* line 282, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.socials_line {
+  height: 5em;
+  width: 55%;
+  background-color: transparent;
+  position: relative;
+}
+
+/* line 289, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.avatar {
+  height: 5em;
+  width: 5em;
+  display: inline-block;
+}
+
+/* line 295, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.avatar img {
+  width: 100%;
+  height: 100%;
+  top: 1em;
+}
+
+/* line 301, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.socials_show {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 1em;
+}
+
+/* line 308, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.writer {
+  display: inline-block;
+  height: 100%;
+}
+
+/* line 313, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.writer h5 {
+  color: #3399cc;
+  font-weight: 500;
+}
+
+/* line 318, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.koppeling {
+  height: 10em;
+  width: 10em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* line 326, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/articles.css.scss */
+.koppeling img {
+  height: auto;
+  width: auto;
+}
+/*************************************************************
+*************************************************************
+CROP
+***************************************************************
+************************************************************/
+/* line 8, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.crop-height {
+  max-height: 50em;
+  overflow: hidden;
+}
+
+/* line 13, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.scale {
+  /* corrects small inline gap at bottom of containing div */
+  display: block;
+  width: 100%;
+  /* corrects obscure Firefox bug */
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  display: block;
+  /* corrects small inline gap at bottom of containing div */
+  width: 100%;
+  /* corrects obscure Firefox bug */
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  /*width: auto\9; 
+  /* ie8+9 - use modernizr instead of this \9 hack */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic;
+  /* optionally force a minimum size if img src size is known: */
+  /* min-height: 320px; /* max-height of .crop-height */
+  /* min-width: 480px; /* proportional to above */
+}
+
+/* line 33, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_crop_helper {
+  /* lt ie8 */
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  /* default - may override with classes or media query */
+  background-position: center bottom;
+  /* scale bg image proportionately */
+  background-size: cover;
+  /* ie8 - https://github.com/louisremi/background-size-polyfill */
+  -ms-behavior: url(backgroundsize.min.htc);
+  /* prevent scaling past src width (or not) */
+}
+
+/* line 47, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_Branding {
+  background-image: url(branding.jpg);
+}
+
+/* line 51, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_SEO {
+  background-image: url(SEO.jpg);
+}
+
+/* line 56, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_Content {
+  background-image: url(Content.png);
+}
+
+/* line 60, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_CRM {
+  background-image: url(CRM.jpg);
+}
+
+/* line 64, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.bg_SMA {
+  background-image: url(Marketing.jpeg);
+}
+
+/* line 69, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/crop.css.scss */
+.transparent {
+  /* trigger hasLayout for ie filters below */
+  zoom: 1;
+  /* 0 opacity in ms filters still displays layout */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* example media query for smaller non-retina  
+@media
+    only screen and (max-device-width : 600px) and (-webkit-max-device-pixel-ratio: 1),
+    only screen and (max-device-width : 600px) and (max-device-pixel-ratio: 1) {
+
+         half-sized "proxy" img 
+        background-image: url(img/photo-wedding_600x400.jpg);
+}
+
+ example media query, larger retina devices 
+@media
+    only screen and (min-device-width : 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-width : 768px) and (        min-device-pixel-ratio: 1.5) {
+
+    .bg-image-wedding {
+         1.5x larger 
+        background-image: url(http://www.zercustoms.com/news/images/Land-Rover/Land-Rover-Discovery-4-3.jpg); }
+}
+
+*/
+/* line 1, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.wrapper_type1_50 {
+  height: 50em;
+}
+
+/* line 5, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.article_diensten_page {
+  position: absolute;
+  z-index: 2;
+  width: 75%;
+  height: inherit;
+  /* GEEF height IN EM*/
+  max-width: 72em;
+  overflow: hidden;
+}
+
+/* line 15, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+article#defining_digital {
+  text-align: center;
+  height: 75%;
+}
+
+/* line 21, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.section_diensten_page {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* line 27, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+section.defining_digital_section {
+  height: 33%;
+  width: 100%;
+}
+
+/* line 32, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+p.defining_digital_paragraph {
+  width: 70%;
+  height: 100%;
+  text-align: left;
+}
+
+/* line 38, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.part_of_section {
+  display: inline-block;
+}
+
+/* line 43, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+h4 {
+  width: 25%;
+  height: 100%;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 0.8em;
+  line-height: 1em;
+}
+
+/* line 55, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+p.tekst {
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+}
+
+/* line 62, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.text_shade {
+  color: #666666;
+}
+
+/*********************************************************
+*************************************************************
+***********************************************************
+************************************************************/
+/* line 71, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.wrapper_type2_50 {
+  height: 52em;
+}
+
+/* line 75, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.h3_diensten {
+  font-size: 3em;
+}
+
+/* line 79, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+figure.aside_illustratie {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 84, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+aside.illustratie_dienst {
+  width: 35%;
+  vertical-align: middle;
+}
+
+/* line 90, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+h6 {
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* line 96, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.dienst1 {
+  display: inline-block;
+}
+
+/* line 100, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+li.not_inline {
+  display: list-item;
+}
+
+/* line 104, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+ul.not_inline {
+  width: 60%;
+  padding-left: 1.5em;
+  vertical-align: middle;
+}
+
+/* line 110, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+article.donker {
+  color: #e9e9e9;
+}
+
+/* line 115, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+h5 {
+  font-size: 1.25em;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  margin: 0.5em 0 0.7em 0;
+}
+
+/* line 124, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+ul#dienst_ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.07em;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+/* line 134, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.dienst_dienst2 {
+  margin: 0 2em 0 2em;
+}
+
+/* line 138, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.dienst_dienst2:hover {
+  color: red;
+}
+
+/* line 143, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.list_red:hover {
+  color: red;
+}
+
+/* line 148, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.h2_services {
+  font-size: 4em;
+  font-weight: 200;
+}
+
+/* line 153, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+#titel_tekst_services {
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* line 161, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/diensten.css.scss */
+.subheader_container_services {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/***********************************************************
+************************************************************
+DIT WAS NAVBAR
+************************************************************
+************************************************************/
+/* line 8, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.tagline2 {
+  display: inline-block;
+}
+
+/* line 12, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+#tagline2_2 {
+  color: red;
+  margin-left: 0.17em;
+  margin-right: 0.17em;
+}
+
+/* line 21, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+#subheader_container_index {
+  width: 50%;
+}
+
+/* line 27, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.down_arrow {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 8%;
+}
+
+/* line 39, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.article_index {
+  width: 98%;
+  height: inherit;
+  max-width: 72em;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* line 50, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.half_page {
+  display: inline-block;
+  width: 40%;
+  height: inherit;
+  position: relative;
+  margin: 0 4.9% 0 4.9%;
+}
+
+/*******************************************************************
+*******************************************************************/
+/*******************************************************************
+*******************************************************************/
+/* line 66, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.wrapper_type2_63 {
+  height: 63em;
+}
+
+/* line 71, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+#wrapper_klant_ervaring {
+  height: 52em;
+}
+
+/*******************************************************************
+*******************************************************************/
+/*******************************************************************
+*******************************************************************/
+/*********************Article 1: Diensten***************************
+*****************************************************************/
+/* line 82, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.section_diensten {
+  width: 33%;
+  display: inline-block;
+  max-width: 24em;
+  text-align: center;
+  margin: 3em 0 3em 0;
+}
+
+/* line 90, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.aside_dienst {
+  margin-bottom: 2em;
+}
+
+/* line 94, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+.h4_index {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 0.75em;
+  line-height: 1em;
+}
+
+/* line 103, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+#dienst_box {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/*********************************************************/
+/*********************Article 2: Klanten ervaringen***************************
+*********************************************************/
+/*********************OVerlay video*********************************/
+/* line 119, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+div#overlay_video {
+  display: none;
+  z-index: 3;
+  background: #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+/* line 130, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/index_styling.css.scss */
+div#videoBox {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30em;
+  height: auto;
+  background: transparent;
+  color: #000;
+}
+
+/*********************************************************/
+/*********************************************************/
+/***********************************************************
+************************************************************/
+/******************* Deel 1 *****************************************
+******************************************************************************** */
+/************** HEADER *****************/
+/* line 12, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_container {
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+}
+
+/************** Containers en wraps*****************/
+/* line 26, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayBranding {
+  width: 100%;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: blue;
+}
+
+/* line 36, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlaySEO {
+  width: 100%;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: orange;
+}
+
+/* line 45, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayContent {
+  width: 100%;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: red;
+}
+
+/* line 55, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayCRM {
+  width: 100%;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: green;
+}
+
+/* line 64, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlaySMA {
+  width: 100%;
+  height: inherit;
+  opacity: 0.77;
+  position: absolute;
+  z-index: 1;
+  background-color: purple;
+}
+
+/* line 75, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayBranding:hover {
+  background-color: #3333ff;
+  opacity: 0.85;
+}
+
+/* line 80, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlaySEO:hover {
+  background-color: #ffc14d;
+}
+
+/* line 84, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayContent:hover {
+  background-color: #ff4d4d;
+  opacity: 0.9;
+}
+
+/* line 90, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlayCRM:hover {
+  background-color: #00cc00;
+}
+
+/* line 94, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.background_overlaySMA:hover {
+  background-color: #e600e6;
+}
+
+/* line 99, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.blog_entry_titel {
+  font-size: 3.8em;
+  font-weight: 600;
+  line-height: 0.9em;
+}
+
+/* line 106, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.blog_entry_titel:hover {
+  color: #666666;
+}
+
+/* line 114, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+hr {
+  border: none;
+  height: 0.13em;
+  /* Set the hr color */
+  color: #333;
+  /* old IE */
+  background-color: #333;
+  /* Modern Browsers */
+  margin-top: 4%;
+}
+
+/* line 124, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.p_head {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* line 133, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.lees_meer, .lees_meer:hover {
+  color: #3399cc;
+  font-weight: 400;
+}
+
+/* line 138, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+.text_field {
+  width: 65%;
+  border-style: solid;
+  border-width: 0.01em;
+}
+
+/* line 145, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/listpage.css.scss */
+#search_ul {
+  width: 10em;
+  right: 10%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/************************************************************
+************************************************************/
+/* line 6, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/overons_styling.css.scss */
+.article_over_ons_page {
+  position: absolute;
+  z-index: 2;
+  max-width: 72em;
+  width: 75%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/* line 21, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/overons_styling.css.scss */
+#over_ons_container {
+  text-align: center;
+}
+/* line 1, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.story_figuur {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 8, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.story_figuur img {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+
+/* line 14, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.subheader_container_story {
+  width: 29.5%;
+  height: inherit;
+  position: relative;
+}
+
+/* line 21, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.hashtag_story {
+  color: #3399cc;
+  font-size: 2em;
+  padding: 3% 2.4% 3% 2.4%;
+}
+
+/* line 28, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.button_container {
+  position: absolute;
+  z-index: 1;
+  width: 10em;
+  height: 10em;
+  background-color: transparent;
+  border-style: none;
+  left: 30%;
+  top: 40%;
+}
+
+/* line 40, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.play_icon {
+  height: 100%;
+  width: 100%;
+}
+
+/*.button_container{
+	position: absolute;
+	z-index: 3;
+	width: inherit;
+	height: inherit;
+}
+
+
+.play_button{
+	background-color: transparent;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	opacity: 0.65;
+	width: inherit;
+	height: inherit;
+}
+
+.play_icon{
+	height: 25%;	
+	width: auto;
+}
+*/
+/* line 72, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.line_div {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+/* line 80, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+#routeee {
+  height: 50em;
+  width: 50em;
+  background-color: red;
+}
+
+/* line 87, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.blog_entry_titel {
+  font-size: 2.8em;
+}
+
+/* line 93, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.blog_entry_titel_multiple {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+/* line 98, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.hashtag_story_multiple {
+  color: #3399cc;
+  font-size: 1em;
+}
+
+/* line 106, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.overlay_story_multiple {
+  height: 15em;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* line 115, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.overlay_story_multiple:hover {
+  opacity: 0.2;
+}
+
+/* line 120, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.story_link_container:hover ~ .wrap_multiple {
+  background-color: lightgray;
+}
+
+/* line 124, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.test_loop {
+  width: 100%;
+  max-width: 72em;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* line 130, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.inline_vidBox {
+  display: inline-block;
+  width: 30%;
+  max-width: 24em;
+  height: 21em;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 1% 0 1%;
+}
+
+/* line 141, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.story_figuur_multiple {
+  height: 15em;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 147, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.wrap_multiple {
+  height: 3em;
+  background-color: gray;
+  padding: 1.25em 0 1.25em 0;
+}
+
+/* line 154, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.scheiding_story {
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.2;
+}
+
+/* line 160, C:/Users/Yugesh/Sites/diqital/app/assets/stylesheets/verhalen_styling.css.scss */
+.wrapper_type2_45_stories {
+  max-height: 45em;
+  overflow: hidden;
+}
+/*
+
+        Creating a sprite from following images:
+
+        app/assets/images/sprites/social-share-button/baidu.png (16x16)
+        app/assets/images/sprites/social-share-button/delicious.png (16x16)
+        app/assets/images/sprites/social-share-button/douban.png (16x16)
+        app/assets/images/sprites/social-share-button/email.png (16x16)
+        app/assets/images/sprites/social-share-button/facebook.png (16x16)
+        app/assets/images/sprites/social-share-button/flickr.png (16x16)
+        app/assets/images/sprites/social-share-button/google_bookmark.png (16x16)
+        app/assets/images/sprites/social-share-button/google_plus.png (16x16)
+        app/assets/images/sprites/social-share-button/kaixin001.png (16x16)
+        app/assets/images/sprites/social-share-button/pinterest.png (16x16)
+        app/assets/images/sprites/social-share-button/plurk.png (16x16)
+        app/assets/images/sprites/social-share-button/qq.png (16x16)
+        app/assets/images/sprites/social-share-button/renren.png (16x16)
+        app/assets/images/sprites/social-share-button/tqq.png (16x16)
+        app/assets/images/sprites/social-share-button/tumblr.png (16x16)
+        app/assets/images/sprites/social-share-button/twitter.png (16x16)
+        app/assets/images/sprites/social-share-button/weibo.png (16x16)
+        app/assets/images/sprites/social-share-button/linkedin.png (16x16)
+
+
+        Output files:
+          app/assets/images/sprites/social-share-button.png
+          app/assets/stylesheets/social-share-button.scss
+
+        Output size:
+          80x64
+
+*/
+/* line 34, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-baidu {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") 0px 0px no-repeat;
+}
+
+/* line 35, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-delicious {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -16px 0px no-repeat;
+}
+
+/* line 36, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-douban {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") 0px -16px no-repeat;
+}
+
+/* line 37, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-email {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -16px -16px no-repeat;
+}
+
+/* line 38, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-facebook {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -32px 0px no-repeat;
+}
+
+/* line 39, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-flickr {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -32px -16px no-repeat;
+}
+
+/* line 40, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-google_bookmark {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") 0px -32px no-repeat;
+}
+
+/* line 41, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-google_plus {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -16px -32px no-repeat;
+}
+
+/* line 42, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-kaixin001 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -32px -32px no-repeat;
+}
+
+/* line 43, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-pinterest {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -48px 0px no-repeat;
+}
+
+/* line 44, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-plurk {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -48px -16px no-repeat;
+}
+
+/* line 45, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-qq {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -48px -32px no-repeat;
+}
+
+/* line 46, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-renren {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") 0px -48px no-repeat;
+}
+
+/* line 47, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-tqq {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -16px -48px no-repeat;
+}
+
+/* line 48, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-tumblr {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -32px -48px no-repeat;
+}
+
+/* line 49, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-twitter {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -48px -48px no-repeat;
+}
+
+/* line 50, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-weibo {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -64px 0px no-repeat;
+}
+
+/* line 51, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+.social-share-button-linkedin {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/sprites/social-share-button-c6c452cb10cf12d85f1776a2c2f6cd8c7a0b1cbbf4c94d09714e2ab2f1454bad.png") -64px -16px no-repeat;
+}
+
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  /* line 55, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-baidu {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") 0px 0px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 56, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-delicious {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -16px 0px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 57, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-douban {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") 0px -16px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 58, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-email {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -16px -16px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 59, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-facebook {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -32px 0px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 60, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-flickr {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -32px -16px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 61, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-google_bookmark {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") 0px -32px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 62, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-google_plus {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -16px -32px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 63, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-kaixin001 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -32px -32px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 64, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-pinterest {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -48px 0px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 65, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-plurk {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -48px -16px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 66, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-qq {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -48px -32px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 67, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-renren {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") 0px -48px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 68, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-tqq {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -16px -48px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 69, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-tumblr {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -32px -48px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 70, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-twitter {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -48px -48px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 71, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-weibo {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -64px 0px no-repeat;
+    background-size: 80px 64px;
+  }
+
+  /* line 72, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/social-share-button-0.2.1/app/assets/stylesheets/social-share-button.scss */
+  .social-share-button-linkedin {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/sprites/social-share-button@2x-c7893a3f9826187fef6a8be2f1f701819502fe83a9cd247b5472c6cebbde1105.png") -64px -16px no-repeat;
+    background-size: 80px 64px;
+  }
+}

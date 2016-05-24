@@ -1,0 +1,151 @@
+/***********************************************************
+************************************************************/
+
+
+/******************* Deel 1 *****************************************
+******************************************************************************** */
+
+/************** HEADER *****************/
+
+
+.background_container{
+	height: inherit;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 0;
+}
+
+
+
+/************** Containers en wraps*****************/
+
+
+
+.background_overlayBranding{
+	width: 100%;
+	height: inherit;
+	opacity: 0.77;
+	position: absolute;
+	z-index: 1;
+	background-color: blue;
+}
+
+
+.background_overlaySEO{
+	width: 100%;
+	height: inherit;
+	opacity: 0.77;
+	position: absolute;
+	z-index: 1;
+	background-color: orange;
+}
+
+.background_overlayContent{
+	width: 100%;
+	height: inherit;
+	opacity: 0.77;
+	position: absolute;
+	z-index: 1;
+	background-color: red;
+}
+
+
+.background_overlayCRM{
+	width: 100%;
+	height: inherit;
+	opacity: 0.77;
+	position: absolute;
+	z-index: 1;
+	background-color: green;
+}
+
+.background_overlaySMA{
+	width: 100%;
+	height: inherit;
+	opacity: 0.77;
+	position: absolute;
+	z-index: 1;
+	background-color: purple;
+}
+
+
+
+.background_overlayBranding:hover{
+	background-color: #3333ff;
+	opacity: 0.85;
+}
+
+.background_overlaySEO:hover{
+	background-color: #ffc14d;
+}
+
+.background_overlayContent:hover{
+	background-color: #ff4d4d;
+	opacity: 0.9;
+}
+
+
+.background_overlayCRM:hover{
+	background-color: #00cc00;
+}
+
+.background_overlaySMA:hover{
+	background-color: #e600e6;
+}
+
+
+.blog_entry_titel{
+    font-size: 3.8em;
+    font-weight: 600;
+    line-height: 0.9em;
+}
+
+
+.blog_entry_titel:hover{
+    color: #666666;
+}
+
+
+
+
+
+hr{
+	border: none;
+    height: 0.13em;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    margin-top: 4%;
+
+}
+
+.p_head{
+	font-weight: 500;	
+	letter-spacing: 0.03em;
+}
+
+
+
+
+
+.lees_meer, .lees_meer:hover{
+	color: #3399cc;
+	font-weight: 400;
+}
+
+.text_field{
+	width: 65%;
+	border-style: solid;
+	border-width: 0.01em;
+}
+
+
+#search_ul{
+	width: 10em;
+    right: 10%;
+    position: absolute;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+
+}
